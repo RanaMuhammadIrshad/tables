@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <table>
+      <!-- row 1 -->
+      <tr>
+        <!-- tr stands for table row -->
+        <th>Header</th>
+        <!-- th stands for table head -->
+        <th>Header</th>
+      </tr>
+
+      <!-- row 2 -->
+      <tr>
+        <td>Cell</td>
+        <!-- td stands for table data -->
+        <td>Cell</td>
+      </tr>
+
+      <!-- row 3 -->
+
+      <tr>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+    </table>
+
+    <!-- Table 1 -->
+
+    <table class="rappers">
+      <!-- thead, tbody, and tfoot are optional elements -->
+      <thead>
+        <tr>
+          <th colspan="2">Rappers</th>
+          <!-- colspan allows the TH to span across multiple columns -->
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- tbody groups body elements together -->
+        <tr>
+          <td>Snoop</td>
+          <td>Dogg</td>
+        </tr>
+
+        <tr>
+          <td>Ice</td>
+          <td>Cube</td>
+        </tr>
+
+        <tr>
+          <td>Marshall</td>
+          <td>Mathers</td>
+        </tr>
+
+        <tr>
+          <td>Sany</td>
+          <td>Deluxe</td>
+        </tr>
+
+        <tr>
+          <td>Eazy</td>
+          <td>E</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2">Made by me</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- Table 2 -->
+
+    <table class="expense">
+      <caption>
+        Corporate yearly Expenditures
+      </caption>
+
+      <thead>
+        <tr>
+          <th scope="col">Items</th>
+          <th scope="col">Expenditure</th>
+          <!-- The scope attrib defines a relation in a vertical way -->
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th scope="row">Staplers</th>
+          <td>3,000</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Pencils</th>
+          <td>1,000</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th scope="row">Totals</th>
+          <td>4,000</td>
+        </tr>
+      </tfoot>
+
+    </table>
+
+
+    <!-- Table 3 -->
+    <table class="countries">
+        <caption>Vital info on countries</caption>
+        <thead>
+            <tr>
+                <th scope="col">Countries</th>
+                <th scope="col">Capitals</th>
+                <th scope="col">Population</th>
+                <th scope="col">Language</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">USA</th>
+                <td>Washington, D.C</td>
+                <td>123445</td>
+                <td>English/Spanish</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Japan</th>
+                <td>Tokio</td>
+                <td>123445</td>
+                <td>Japanese</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Cuba</th>
+                <td>Havana</td>van</td>
+                <td>123445</td>
+                <td>Spanish</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Table 4 -->
+
+    <table class="hero">
+        <caption>Superheros</caption>
+        <colgroup>
+            <col> <!-- white col -->
+            <col span="2" class="purple"> <!-- we want to set a bg to col 2 and 3 -->
+            <col span="2" class="orange">
+        </colgroup>
+
+        <tr>
+            <th></th>
+            <th scope="col">Batman</th>
+            <th scope="col">Robin</th>
+            <th scope="col">The Flash</th>
+            <th scope="col">Kid Flash</th>
+        </tr>
+
+        <tr>
+            <th scope="row">Skill</th>
+            <td>Smarts</td>
+            <td>Dex, acrobat</td>
+            <td>Super speed</td>
+            <td>Super speed</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Skill</th>
+            <td>Smarts</td>
+            <td>Dex, acrobat</td>
+            <td>Super speed</td>
+            <td>Super speed</td>
+        </tr>
+    </table>
+
+
+
+  </body>
+</html>

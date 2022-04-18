@@ -1,0 +1,115 @@
+/* table {
+    width: 300px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: right;
+} */
+
+
+/* Table 1 */
+
+.rappers {
+    margin-top: 1rem;
+    width: 300px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.rappers th {
+    background-color: lightskyblue;
+}
+
+.rappers, .rappers td {
+    border: 1px solid black
+}
+
+.rappers tr:nth-child(even) {
+    background-color: aqua;
+}
+
+.rappers tr:nth-child(5) {
+    background-color: deeppink;
+    color: white;
+}
+
+.rappers td {
+    padding: 5px;
+}
+
+
+/* Table 2 */
+
+.expense {
+    margin-top: 1rem;
+    width: 400px;
+    border: 2px solid red;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.expense thead {
+    background-color: rgb(180, 184, 189);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.expense tfoot {
+    background-color: lime;
+}
+
+.expense td,
+.expense th {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+
+/* Table 3 */
+
+.countries {
+    width: 500px;
+    margin-top: 1rem;
+    border-collapse: collapse;
+}
+
+.countries th,
+.countries td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+
+/* Table 4 */
+
+.hero {
+    margin-top: 1rem;
+    border-collapse: collapse;
+cell-padding:
+}
+
+.hero th,
+.hero td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.hero .purple {
+    background-color: rgb(230, 136, 230);
+}
+
+.hero .orange {
+    background-color:orange;
+}
